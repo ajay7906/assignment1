@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+
+    padding: 0;
+}
+
+.parent {
+    width: 100vw;
+    height: 100vh;
+
+
+}
+
+.upperChild {
+
+    width: 100%;
+    height: 68%;
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #FFCD9E;
+}
+
+.left {
+    width: 40em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    padding-left: 15px;
+
+
+
+}
+
+.left h1 {
+    color: #282828;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 54px */
+}
+
+.left p {
+    color: #484848;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    /* 32px */
+
+
+}
+
+.left h3 {
+    color: #282828;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 160%;
+    /* 32px */
+}
+
+.left input {
+    color: #888;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+    width: 280px;
+    border: 2px solid black;
+
+    /* 32px */
+}
+
+.left button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 5%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #282828;
+}
+
+.left h4 {
+    color: #FFF;
+    text-align: left;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    /* 25.6px */
+}
+
+.right {
+    width: 30em;
+    display: flex;
+}
+
+.right img {
+    width: 100%;
+}
+
+.lowerchild {
+    background-color: #282828;
+    color: white;
+    width: 100%;
+    display: flex;
+    height: 30vh;
+    padding-bottom: 10px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.lowerchild h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60%;
+    /* 32px */
+}
+
+.socialmedia {
+    text-align: right;
+}
+
+.socialmedia img {
+    padding-bottom: 15px;
+}
